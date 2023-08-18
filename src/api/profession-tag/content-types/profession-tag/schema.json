@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "profession_tags",
+  "info": {
+    "singularName": "profession-tag",
+    "pluralName": "profession-tags",
+    "displayName": "ProfessionTag"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
